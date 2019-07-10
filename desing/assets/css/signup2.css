@@ -1,0 +1,112 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.form {
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 190px;
+}
+.form-heading {
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.32;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+	margin-bottom: 30px;
+}
+.form-label {
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #707070;
+	display: block;
+}
+.form-label_number {
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #53a0fd;
+	display: block;
+}
+.primarybutton {
+	border-radius: 5px;
+	background-color: #53a0fd;
+	padding: 9px 40px 9px 40px;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	border-style: none;
+	margin-top: 43px;
+	margin-right: 20px;
+}
+.link {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000000;
+}
+a:link {
+	text-decoration: none;
+}
+.form-input, .form-input_name {
+	border: none;
+	border-bottom: 1px solid #bbb;
+}
+/*.checked-button {
+	position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: red;
+	opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}*/
+.form_input {
+	border: none;
+	border-bottom: 1px solid #53a0fd;
+}
+.form-control_label, .form-control_label_gender, .form-control_label_date {
+	float: left;
+}
+.form-control_label_gender, .form-input_name {
+	margin-right: 60px;
+}
+.input_gender {
+	margin: 10px;
+}
+.form-control_label_date {margin-left: 20px;}
+.arrow {margin-left: 15px;}
+span {
+  content: "\2192";
+} 
+.clear {
+	clear:both;
+}

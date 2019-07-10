@@ -1,0 +1,134 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page-section-right {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.page-section-left {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+.login-image {
+	  width: 326.2px;
+	  height: 247.3px;
+	  margin: 225px 799px 225px 239px;
+}
+.logo-image {
+	  width: 156.9px;
+	  height: 41.5px;
+	  margin: 127px 526px 41px 0px;
+}
+.form-header {
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.32;
+	letter-spacing: normal;
+	text-align: left;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.36;
+	letter-spacing: normal;
+	text-align: left;
+	color: #707070;
+}
+.form-paragraph {
+	margin-bottom: 36px;
+}
+.form-control-label {display: block;}
+.email {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+}
+.form-input {
+	border: none;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 33px;
+  
+}
+.pass {
+	margin-top: 33px; 
+	margin-bottom: 10px;
+}
+.form_input {
+	border: none;
+  border-bottom: 1px solid #bbb;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.form-link {
+	text-align: center;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	color: #000000;
+	padding-left: 250px;
+}
+.primarybutton {
+	padding: 8px 40px 8px 40px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: #53a0fd;
+	font-size: 17px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.35;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 5px;
+	margin-bottom: 23px;
+}
+.sign {
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #707070;
+}
+.sign1 {
+	font-size: 16px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;  
+	line-height: 1.38;
+	letter-spacing: normal;
+	text-align: left;
+	color: #53a0fd;
+}
+.arrow {margin-left: 10px;}
+a:link {
+	text-decoration: none;
+}
+span {
+  content: "\2192";
+} 
+.clearfix{
+	clear: both;
+}
